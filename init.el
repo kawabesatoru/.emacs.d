@@ -13,7 +13,7 @@
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t) ; melpa
 (add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t) ; melpa stble
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/") t) ; marmalade
+; (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/") t) ; marmalade
 (package-initialize)
 ;; (package-refresh-contents)
 
@@ -38,7 +38,7 @@
  ;; If there is more than one, they won't work right.
  '(js-indent-level 2)
  '(package-selected-packages
-   '(web-mode-edit-element org feature-mode gherkin-mode rinari yaml-mode slim-mode sass-mode php-mode lua-mode json-mode js2-mode web-mode howm haml-mode less-css-mode auctex init-loader coffee-mode ruby-mode)))
+   '(gdscript-mode web-mode-edit-element org feature-mode gherkin-mode rinari yaml-mode slim-mode sass-mode php-mode lua-mode json-mode js2-mode web-mode howm haml-mode less-css-mode auctex init-loader coffee-mode ruby-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

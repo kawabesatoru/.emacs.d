@@ -24,6 +24,12 @@
 (add-to-list 'auto-mode-alist '("\.feature$" . feature-mode))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @ feature
+
+(require 'gdscript-mode)
+(add-to-list 'auto-mode-alist '("\.tscn$" . gdscript-mode))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @ howm
 (setq howm-menu-lang 'ja)
 (global-set-key "\C-c,," 'howm-menu)
